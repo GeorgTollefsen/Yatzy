@@ -12,4 +12,9 @@ public class GameTest {
     public void countTwos() {
         assertEquals(3, Game.checkForTwos(new int[] {2,2,1,2,4}));
     }
+
+    @Test
+    public void countThrees() {
+        assertEquals(2, Game.placeholderfunksjonsnamn(new int[] {1, 4, 3, 2, 3}));
+    }
 }
