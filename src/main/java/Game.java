@@ -18,6 +18,11 @@ public class Game {
 
     }
 
+    public static int countFives(int[] fives) {
+        return -1;
+
+    }
+
 
     public static int countThis(int[] kast, int checkNumber) {
         int counter = 0;

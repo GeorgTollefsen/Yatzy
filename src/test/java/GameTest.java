@@ -22,5 +22,10 @@ public class GameTest {
         assertEquals(5, Game.countFours(new int[] {4, 4, 4, 4, 4}));
     }
 
+    @Test
+    public void countFives() {
+        assertEquals(0, Game.countFives(new int[] {6, 6, 6, 6, 6}));
+    }
+
 
 }
