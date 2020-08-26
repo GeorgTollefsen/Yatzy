@@ -19,7 +19,7 @@ public class GameTest {
     }
     @Test
     public void countFours() {
-        assertEquals(2, Game.countThrees(new int[] {1, 4, 3, 2, 3}));
+        assertEquals(5, Game.countThrees(new int[] {4, 4, 4, 4, 4}));
     }
 
 
