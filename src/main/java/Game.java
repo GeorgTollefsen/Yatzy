@@ -19,4 +19,16 @@ public class Game {
         }
         return counter;
     }
+
+
+    public static int countThrees(int[] tall) {
+        int counter = 0;
+        for(int t : tall){
+            if(t == 3){
+                counter++;
+            }
+        }
+        return counter;
+    }
+
 }

@@ -15,6 +15,12 @@ public class GameTest {
 
     @Test
     public void countThrees() {
-        assertEquals(2, Game.placeholderfunksjonsnamn(new int[] {1, 4, 3, 2, 3}));
+        assertEquals(2, Game.countThrees(new int[] {1, 4, 3, 2, 3}));
     }
+    @Test
+    public void countFours() {
+        assertEquals(2, Game.countThrees(new int[] {1, 4, 3, 2, 3}));
+    }
+
+
 }
