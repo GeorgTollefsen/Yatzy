@@ -23,6 +23,7 @@ public class Game {
 
     }
 
+    // DENNE KOMMENTAREN ER PUSHET TIL BRANCH1
 
     public static int countThis(int[] kast, int checkNumber) {
         int counter = 0;
