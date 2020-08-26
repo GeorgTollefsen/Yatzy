@@ -10,6 +10,6 @@ public class GameTest {
 
     @Test
     public void countTwos() {
-        assertEquals(4, Game.makeNumber(new int[] {2,2,1,2,4}));
+        assertEquals(3, Game.checkForTwos(new int[] {2,2,1,2,4}));
     }
 }

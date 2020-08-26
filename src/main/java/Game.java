@@ -9,4 +9,14 @@ public class Game {
         }
         return counter;
     }
+
+    public static int checkForTwos(int[] twos) {
+        int counter = 0;
+        for (int i=0;i<twos.length;i++) {
+            if(twos[i]==2) {
+                counter += 1;
+            }
+        }
+        return counter;
+    }
 }
